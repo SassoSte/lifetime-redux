@@ -96,5 +96,3 @@ wardrobe variant in the same job — they fight.
 - Negations without a positive replacement. "No towel" alone leaves a towel-shaped hole; "nothing draped over his shoulder, his shoulders bare and wet" fills it.
 - Describing a fix for a reference-image defect. Waxy skin, garbled labels and open doors are inherited from the reference and are not prompt-fixable. Fix the image.
 - More than one location, or more than one camera setup, in one generation.
-
-<!-- publish-test -->
