@@ -78,9 +78,21 @@ a towel, glasses, a bottle label — the prompt wins and the object is removed.
 AUDIO. Diegetic ambient only, per prompt. Never add music, score, bgm, sound design
 flourishes or a narrator.
 
-OUTPUT. 12 seconds, 1080p, 16:9, standard mode. After each generation, tell me the shot
-ID from my prompt heading and give me the file. Do not generate the next shot until I
-send it. Do not offer variations unless I ask.
+OUTPUT. 12 seconds, 1080p, 16:9. Use Seedance 2.0 in `std` mode with `genre: comedy`.
+That is not an arbitrary pin: every existing scene in this film was generated on Seedance
+2.0, so switching engines mid-film risks a visible break in skin rendering and motion
+character; and 2.0 exposes a `genre` parameter that Seedance 2.5 does not, which is the
+single most useful lever we have on the tonal law above. If you have a concrete reason to
+believe another model serves this specific shot better, say so and wait for me rather than
+switching silently. After each generation, tell me the shot ID from my prompt heading and
+give me the file. Do not generate the next shot until I send it. Do not offer variations
+unless I ask.
+
+REFERENCE SLOTS. Prompts refer to images as @[Image 1](image_1) and @[Image 2](image_2).
+That is web-UI syntax and may not survive into an API call — if your harness does not
+resolve it, map by position instead: **Image 1 is always the character plate, Image 2 is
+always the location plate**, in the order the shot file lists them. The words "Image 1"
+and "Image 2" inside the prompt text refer to those slots.
 
 Confirm you have this, in one sentence, and then wait for the first shot.
 ```
