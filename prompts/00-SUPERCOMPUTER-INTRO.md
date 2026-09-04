@@ -75,18 +75,31 @@ exactly: match the attached face, hair, build, wardrobe and room geometry withou
 reinterpretation. Where a reference image contains an object the prompt says is absent —
 a towel, glasses, a bottle label — the prompt wins and the object is removed.
 
-AUDIO. Diegetic ambient only, per prompt. Never add music, score, bgm, sound design
-flourishes or a narrator.
+AUDIO. Generate every shot SILENT — `generate_audio: false`. All sound is built in post.
+The audio paragraph in each shot prompt describes the intended soundscape for the editor's
+benefit; it is not an instruction to synthesise anything. Never add music, score, bgm,
+sound design or narration.
 
-OUTPUT. 12 seconds, 1080p, 16:9. Use Seedance 2.0 in `std` mode with `genre: comedy`.
-That is not an arbitrary pin: every existing scene in this film was generated on Seedance
+OUTPUT. 12 seconds, 1080p, 16:9. Use Seedance 2.0 in `std` mode with `genre: comedy` and
+`generate_audio: false`.
+
+That is not an arbitrary pin. Every existing scene in this film was generated on Seedance
 2.0, so switching engines mid-film risks a visible break in skin rendering and motion
-character; and 2.0 exposes a `genre` parameter that Seedance 2.5 does not, which is the
-single most useful lever we have on the tonal law above. If you have a concrete reason to
-believe another model serves this specific shot better, say so and wait for me rather than
-switching silently. After each generation, tell me the shot ID from my prompt heading and
-give me the file. Do not generate the next shot until I send it. Do not offer variations
-unless I ask.
+character. More importantly, 2.0 exposes a `genre` parameter that Seedance 2.5 does not,
+and `genre: comedy` has a verified track record here — the two Scene 7 generations that
+used it both passed their register check as genuinely bemused, with no broad or slapstick
+performance. The one shot generated without it came back tonally flat.
+
+Read `genre: comedy` as a grade and pacing hint, not a licence to play broad. The comedy
+in this film is behavioural and dry: it lives in stillness, in beats held a moment too
+long, and in a man being reasonable about an unreasonable situation. There is never a
+pratfall, never mugging, never a reaction played for the back row. If a beat could be
+performed broadly or quietly, perform it quietly.
+
+If you have a concrete reason to believe another model serves a specific shot better, say
+so and wait for me rather than switching silently. After each generation, tell me the shot
+ID from my prompt heading and give me the file. Do not generate the next shot until I send
+it. Do not offer variations unless I ask.
 
 REFERENCE SLOTS. Prompts refer to images as @[Image 1](image_1) and @[Image 2](image_2).
 That is web-UI syntax and may not survive into an API call — if your harness does not

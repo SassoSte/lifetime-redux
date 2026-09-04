@@ -106,7 +106,47 @@ Extract frames at 2s, 4s, 6s, 9s, 11s.
 
 **Pass threshold:** 7/9, with checks 1, 2 and 3 mandatory.
 
-**Save as:** `redux/outputs/S3A-v1.mp4`
+**Save as:** `outputs/S3A-v1.mp4`
 
 **If it fails:** one revision only. If the second doesn't beat the first, keep the first
 and move to S3B.
+
+
+---
+
+## Result — v1 is the KEEPER (2026-09-04)
+
+Generated on **Seedance 2.5** (before the engine was pinned), 12.05s, 1920×1080, 24fps.
+
+**Score: 8/9 on independent verification, accepted by the creator as a keeper.**
+
+| Check | Result |
+|---|---|
+| Never touches water | ✅ dry stone every frame |
+| Zero readable text | ✅ full-frame scans incl. background |
+| Glasses clear | ✅ |
+| Face matches plate | ✅ |
+| Matte skin | ✅ |
+| No towel | ✅ |
+| Clean full stop | ✅ walking at 0s, planted by 2s |
+| Bemused register | ⚠️ creator's call — see below |
+| Camera static | ✅ |
+
+**On the register disagreement.** Three independent vision reads of frames at 6s, 9s and
+11s all returned "neutral/contemplative" with no smile detected. The creator watched the
+motion and read 0:09 as landing bemused, and overruled. **The creator's read stands** —
+vision models reliably detect broad smiles and reliably miss a one-corner flicker, which
+is exactly what the prompt asks for. A still-frame verdict on micro-expression is weak
+evidence; judge register in motion, not in frames.
+
+**Camera-lock measurement, corrected.** Whole-frame SSIM start-to-end was 0.9716, which
+looks like drift but is dominated by water movement and Seth moving. Measured on a static
+upper-left crop containing no water and no subject: 0.9984 → 0.9920 across the take,
+decaying smoothly. That is codec noise on a locked frame. **Always measure camera lock on
+a static crop.**
+
+**Two process findings this shot produced:**
+
+1. Generated on 2.5, so no `genre` parameter — the tonal lever was unavailable. Everything
+   from S3B on is pinned to Seedance 2.0 with `genre: comedy`.
+2. Audio came back as synthesised 32 kHz soundscape. All later shots generate silent.

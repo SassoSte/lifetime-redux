@@ -25,8 +25,8 @@ Nothing generated from a previous attempt's context.
 
 | Shot | Beat | Seth plate | Location | Glasses | Status |
 |---|---|---|---|---|---|
-| **S3A** | Confident approach, freeze at the rim | `Seth-Swim-Glasses.png` | `Cold-Plunge-Room.png` | clear | **prompt ready** |
-| S3B | Bare toe dip, behavioural recoil | `Seth-Swim-Glasses.png` | `Cold-Plunge-Room.png` | clear | queued |
+| S3A | Confident approach, freeze at the rim | `Seth-Swim-Glasses.png` | `Cold-Plunge-Room.png` | clear | ✅ **KEEPER v1** 2026-09-04 |
+| **S3B** | Bare toe dip, behavioural recoil | `Seth-Swim-Glasses.png` | `Cold-Plunge-Room.png` | clear | **next** |
 | S3C | Pacing, murmured pep talk, the glance at the hot tub | `Seth-Swim-Glasses.png` | `Cold-Plunge-Room.png` | clear | queued |
 | S3D | Grips the rail, foot hovers and locks | `Seth-Swim-Glasses.png` | `Cold-Plunge-Room.png` | clear | queued |
 | **S4** | Sauna psych-up — **LOCKED KEEPER, 8.5/9** | `Seth-Swim-Bare.png` | `Sauna-Interior.png` | off | locked |
@@ -53,6 +53,26 @@ Nothing generated from a previous attempt's context.
 at the two-attempt rule. Balance after the cast rebuild: **9,384**.
 
 ---
+
+## Generation settings (every shot)
+
+`seedance_2_0` · `mode: std` · `genre: comedy` · `generate_audio: false` · 12s · 1080p · 16:9
+
+**`genre: comedy` is proven here, with one open risk.** Both Scene 7 generations that used
+it passed their register check as genuinely bemused — no broad playing, no slapstick. S3A,
+generated on Seedance 2.5 without it, came back tonally flat. Treat it as a grade and
+pacing hint, not a performance instruction; the slapstick risk lives in prompt language
+("stumbles", "comically", "flails"), which our prompts never use.
+
+**Open risk — watch S2A/S2C and S6A.** The evidence covers static, contemplative shots
+only. The two shots with real physical action (the pickleball whiff; the foot hitting cold
+water and the body jolting) are where a model could decide "comedy" means broad. If either
+comes back mugging, drop that shot to `genre: auto` — one parameter, no prompt rewrite.
+
+**Always generate silent.** S3A's synthesised audio was 32 kHz machine-generated
+soundscape. The Scene 7 canary that passed 6/6 used `generate_audio: false`. All sound is
+Phase 4 post; the audio paragraph in each prompt is a note for the editor, not a
+generation instruction.
 
 ## The glasses arc (track it across shots)
 
