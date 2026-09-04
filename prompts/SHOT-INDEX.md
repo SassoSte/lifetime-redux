@@ -26,7 +26,7 @@ Nothing generated from a previous attempt's context.
 | Shot | Beat | Seth plate | Location | Glasses | Status |
 |---|---|---|---|---|---|
 | S3A | Confident approach, freeze at the rim | `Seth-Swim-Glasses.png` | `Cold-Plunge-Room.png` | clear | ✅ **KEEPER v1** 2026-09-04 |
-| **S3B** | Bare toe dip, behavioural recoil | `Seth-Swim-Glasses.png` | `Cold-Plunge-Room.png` | clear | **next** |
+| **S3B** | Toe dip: honest wince, then retrospective amusement | `Seth-Swim-Glasses.png` | `Cold-Plunge-Room.png` | clear | **v1 rejected — v2 ready** |
 | S3C | Pacing, murmured pep talk, the glance at the hot tub | `Seth-Swim-Glasses.png` | `Cold-Plunge-Room.png` | clear | queued |
 | S3D | Grips the rail, foot hovers and locks | `Seth-Swim-Glasses.png` | `Cold-Plunge-Room.png` | clear | queued |
 | **S4** | Sauna psych-up — **LOCKED KEEPER, 8.5/9** | `Seth-Swim-Bare.png` | `Sauna-Interior.png` | off | locked |
@@ -73,6 +73,32 @@ comes back mugging, drop that shot to `genre: auto` — one parameter, no prompt
 soundscape. The Scene 7 canary that passed 6/6 used `generate_audio: false`. All sound is
 Phase 4 post; the audio paragraph in each prompt is a note for the editor, not a
 generation instruction.
+
+## Physical honesty (learned on S3B v1)
+
+The tonal law governs how Seth *regards* his situation, never how his body *responds* to
+it. Cold is really cold. **Sequence: honest physical reaction → recognition → private
+amusement**, in that order, about a second apart. Amusement *during* a shock reads as
+alien, not funny. `EDIT-NOTES` already approved this shape — Scene 6's grimace is marked
+"good, real, keeper."
+
+**Nobody lingers in cold water.** Exploratory hovering is the most uncanny thing a body can
+do on camera. Real contact is fast and binary: touch, instant retreat. S3B v1 rendered a
+foot held above the surface feeling for the water and the creator's verdict was immediate:
+*"like he's an alien creep."*
+
+## Verification discipline (learned on S3B v1)
+
+**Never ask a leading question about an action you specified.** v1 scored 10/10 on
+*"is the recoil small and involuntary or theatrical?"* — a forced choice that cannot return
+"the action never happened." The model handed back the prompt's own vocabulary. Ask
+**"describe what his foot and face do, second by second"** instead.
+
+**Fast beats hide between frame samples.** A sub-second event will not appear at 2/4/5/7/10s.
+Extract densely across the window, find the motion spike, then read the frames around it.
+
+**Zoom in.** Wide-frame vision reads missed toes extended past the coping entirely; the
+contact only became visible on a tight crop of the foot-water boundary.
 
 ## The glasses arc (track it across shots)
 
