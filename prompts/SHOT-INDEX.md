@@ -26,8 +26,8 @@ Nothing generated from a previous attempt's context.
 | Shot | Beat | Seth plate | Location | Glasses | Status |
 |---|---|---|---|---|---|
 | S3A | Confident approach, freeze at the rim | `Seth-Swim-Glasses.png` | `Cold-Plunge-Room.png` | clear | ✅ **KEEPER v1** 2026-09-04 |
-| **S3B** | Toe dip: honest wince, then retrospective amusement | `Seth-Swim-Glasses.png` | `Cold-Plunge-Room.png` | clear | **v1 rejected — v2 ready** |
-| S3C | Pacing, murmured pep talk, the glance at the hot tub | `Seth-Swim-Glasses.png` | `Cold-Plunge-Room.png` | clear | queued |
+| ~~S3B~~ | ~~Toe dip~~ — **ABANDONED after 3 attempts.** Cut the beat, or restage as a *hand* dip (two fingers, snap back, wipe on trunks — no "stepping into a pool" prior) | `Seth-Swim-Glasses.png` | `Cold-Plunge-Room.png` | clear | ❌ **attempts spent** |
+| **S3C** | Pacing, murmured pep talk, the glance at the hot tub | `Seth-Swim-Glasses.png` | `Cold-Plunge-Room.png` | clear | queued — **state shot, favourable** |
 | S3D | Grips the rail, foot hovers and locks | `Seth-Swim-Glasses.png` | `Cold-Plunge-Room.png` | clear | queued |
 | **S4** | Sauna psych-up — **LOCKED KEEPER, 8.5/9** | `Seth-Swim-Bare.png` | `Sauna-Interior.png` | off | locked |
 | S5A | Temptation at the plunge rim | `Seth-Swim-Glasses.png` | `Cold-Plunge-Room.png` | clear | queued |
@@ -73,6 +73,18 @@ comes back mugging, drop that shot to `genre: auto` — one parameter, no prompt
 soundscape. The Scene 7 canary that passed 6/6 used `generate_audio: false`. All sound is
 Phase 4 post; the audio paragraph in each prompt is a note for the editor, not a
 generation instruction.
+
+## PAUSED 2026-09-04 — read `../DIRECTABILITY.md` first
+
+The project is paused. Before attempting any shot below, read `../DIRECTABILITY.md`.
+
+**Short version:** this tooling renders *states* reliably and *events* unreliably. Every
+shot in this index that asks for a condition Seth is *in* has good odds. Every shot that
+asks for a timed action he *performs* is at risk, and S3B burned three attempts proving it.
+
+Marked below where relevant. S5 and S6 are mostly state shots — favourable ground, and the
+highest-value remaining work. **S6A is the exception** (foot hits cold water, body jolts):
+same event shape as S3B, expect the same fight.
 
 ## Physical honesty (learned on S3B v1)
 

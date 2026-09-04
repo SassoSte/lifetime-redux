@@ -1,4 +1,31 @@
-# S3B — The Toe Dip and the Recoil (Scene 3, beat 2 of 4) — v2
+# S3B — The Toe Dip and the Recoil — ❌ ABANDONED
+
+> **Three attempts, three failures, same failure mode. Do not attempt a v3 without
+> restaging the beat.** This file is kept as the record. See `../DIRECTABILITY.md`.
+
+## Outcome
+
+| Attempt | Asked | Rendered |
+|---|---|---|
+| Scene 3 (Sep 3) | toe dip, feet/ankles only | knee-deep submersion |
+| v1 | fast involuntary recoil | slow exploratory hover, toes held above the surface — creator: *"weirdly touching the water like he's an alien creep"* |
+| v2 | explicit zero-hover count, fast binary contact | **two** mid-air holds (5 frames at 4.12–4.33s, 9 frames at 4.54–4.92s), then a step-in with a bracing crouch; wince arrived *before* contact, as anticipatory dread |
+
+Clips preserved at `redux-workshop/S3B-v1-REJECTED.mp4` and `S3B-v2-FAILED.mp4`.
+
+**Diagnosis:** the dominant prior for `man + cold plunge + foot` is *slowly entering a
+pool*. Prompt language did not displace it across three attempts and every available
+escalation. This is an *event* ask — sub-second contact with internal timing — and events
+are where directability collapses.
+
+**If restaging:** make it a **hand**. He crouches, dips two fingers, snaps them back, wipes
+them on his trunks. Hands are fast and expressive and carry no pool-entry prior. Or cut the
+beat entirely — Scene 3 needs ~3s from it, and S3A's dead stop plus S3C's pacing can carry
+the hesitation.
+
+---
+
+## Original v2 brief (unchanged, for the record)
 
 **Final duration in the cut:** ~3s, extracted from the 12s generation.
 **Continues directly from S3A** — same room, same camera position, same standing spot.
