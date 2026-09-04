@@ -1,0 +1,11 @@
+# Large media — clips are delivered back to the operator, not committed
+*.mp4
+*.mov
+*.webm
+*.wav
+*.mp3
+
+# OS / editor noise
+.DS_Store
+.claude/
+__pycache__/

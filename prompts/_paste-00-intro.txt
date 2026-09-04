@@ -1,0 +1,74 @@
+We are making a near-silent dry-comedy short film, 108 seconds, nine scenes of twelve
+seconds each, live-action photoreal. I will send you ONE shot at a time. Each message
+after this one is a complete, self-contained shot prompt. Generate exactly that shot,
+nothing more, and do not carry motion, wardrobe or staging ideas from any previous shot
+unless the prompt says so.
+
+THE FILM. Our man is called SETH. He arrives at an upscale fitness club with a reasonable
+plan and a text to his wife saying he'll be home in ninety minutes. The club then quietly
+eats his entire evening — pickleball, cold plunge, sauna, steam room, hot tub, shower,
+locker room, bar. He never notices. The audience does all the arithmetic; he does none.
+
+SETH. Early forties. Dark brown hair, short at the sides, a little tousled on top, clearly
+receding at the temples and thinning at the crown, with a high lined forehead. A short,
+patchy, reddish-brown stubble beard with a few grey hairs at the chin. Black rectangular
+eyeglasses. The build of a man who does not train: slender arms, narrow chest, a soft
+midsection with an ordinary small belly and no abdominal definition, and a faint slouch.
+He is unremarkable on purpose — the audience should recognise him as themselves, not
+admire him. Never make him younger, never give him a full head of hair, never clean-shave
+him, never give him muscle definition. His face arrives with each prompt as Image 1 and
+that plate is the authority; this paragraph only tells you who he is so you don't drift.
+
+THE TONAL LAW, WHICH OVERRIDES EVERYTHING. Seth is not suffering. He is enjoying his own
+bewilderment. He is not a man failing at time management — he is a man with a secret
+leisure life at a health club, who knows he is going to lose the evening, does it anyway,
+and is completely fine with it. Correct register: warm amusement at his own theatrics,
+bemused acceptance, mild private enjoyment, "here we go again." Forbidden register: grim
+determination, heroic effort, gritty resolve, dread, condemnation, or satisfied
+completion. If a beat could be played either grim or bemused, play it bemused. This is
+the single most important instruction in this document.
+
+SETH'S GLASSES ARE A RUNNING DEVICE. He wears them everywhere except in water and in the
+shower. In heat and steam they fog — from the inside, from below, clouding upward, and
+they clear from the outer edges inward. When they are fogged he keeps going anyway. When
+a prompt says the lenses are clear, they are perfectly clear. Never fog them unless asked.
+
+THE CAMERA LAW. Unless a prompt explicitly says otherwise, every shot is one continuous
+locked-off static take, 12 seconds, 16:9, 35mm prime, tripod, absolute rock-solid
+stillness from the first frame to the last — zero drift, zero shake, zero stabilization
+float, zero pan, tilt, zoom, dolly, orbit or camera breathing. The clip must close on
+precisely the framing it began with, identical down to the pixel. One motion per shot.
+Multi-beat sequences are delivered to you as separate shots and cut together later; never
+invent a cut, a location change or a second camera setup inside a single generation.
+
+PHOTOREALISM. Documentary realism, not cinematic gloss. Skin is matte and organic with
+visible pores, natural asymmetry and real imperfection — never plastic, never airbrushed,
+never CGI sheen. Wood, tile and stone show natural grain variation, knots, imperfect
+joints and colour shift — never uniform, never a repeating synthetic pattern. Fabric
+drapes and creases; it never reads stiff.
+
+TEXT IS FORBIDDEN. Never render readable text anywhere in frame — no phone screens, no
+product labels, no signage copy, no depth markers, no digits. Phone screens always face
+away from camera. Labels read as soft embossed shapes with no letterforms. All story text
+is added later in post. A legible word in frame is a failed generation.
+
+THE COUNT LOCKS. Every prompt ends with a short list of literal counts — how many people,
+how many pairs of glasses, how many towels, how many of a specific forbidden motion.
+Treat those counts as hard numeric constraints on the render, not as stylistic advice.
+Zero means zero.
+
+REFERENCE IMAGES. Each prompt attaches its own images from a local folder and refers to
+them inline as @[Image 1](image_1), @[Image 2](image_2), and so on. Image 1 is always the
+character. Image 2 is always the location. Any further image is a prop. "Exactly" means
+exactly: match the attached face, hair, build, wardrobe and room geometry without
+reinterpretation. Where a reference image contains an object the prompt says is absent —
+a towel, glasses, a bottle label — the prompt wins and the object is removed.
+
+AUDIO. Diegetic ambient only, per prompt. Never add music, score, bgm, sound design
+flourishes or a narrator.
+
+OUTPUT. 12 seconds, 1080p, 16:9, standard mode. After each generation, tell me the shot
+ID from my prompt heading and give me the file. Do not generate the next shot until I
+send it. Do not offer variations unless I ask.
+
+Confirm you have this, in one sentence, and then wait for the first shot.
