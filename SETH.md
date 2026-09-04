@@ -87,3 +87,5 @@ and the glasses device — the things a plate cannot encode. Everything visual l
 NSFW classifier blocked two shirtless plates outright, no negotiation. It enforces safety
 policy strictly and creative specification loosely. Design around that asymmetry rather
 than against it.
+
+<!-- verify-path-test -->
